@@ -1,0 +1,9 @@
+mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc6 -Dpackaging=jar -Dversion=11.2.0.4.0 -Dfile=D:\Oracle\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc6.jar -DgeneratePom=true
+In POM.xml
+<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc6</artifactId>
+    <version>11.2.0.4.0</version>
+    <scope>runtime</scope>
+</dependency>
