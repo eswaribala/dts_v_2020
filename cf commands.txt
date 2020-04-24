@@ -1,0 +1,15 @@
+Step1
+cf login -a api.run.pivotal.io
+
+step2
+
+cf push routename -p <jar>
+        ref name   
+cf push globalins-cf -p <jar>
+
+cf  push uploaddoceswari-cf -p <jar>
+step3
+connect app to db service
+
+step 4
+restage
