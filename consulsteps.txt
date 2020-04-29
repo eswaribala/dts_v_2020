@@ -1,0 +1,3 @@
+Download from Consul portal. Choose particular package based on the operating System. Once downloaded the zip, we need to unzip it to desired place.
+Start Consul Agent in local workstation – The Zip file that we have unzipped, has only one exe file called consul.exe. We will start a command prompt here and use below command to start the agent.
+consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=192.168.99.1
