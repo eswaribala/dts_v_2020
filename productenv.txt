@@ -1,0 +1,27 @@
+Production
+
+containerization, ci cd
+
+single docker -- docker file, docker compose(image will be connected to differ services(db,monitoring,notification)  images,  containers--->manual--configuration
+Docker swarm volumes and multiple docker machines --Docker cluster --High availability
+manually 
+
+kubernete
+GUI container orchestration
+minikube  ---> open source
+AWS
+Azure
+openshift
+
+  
+
+
+
+
+ 
+
+
+
+
+
+
