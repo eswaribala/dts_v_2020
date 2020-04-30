@@ -1,0 +1,38 @@
+1.problem statement
+Design circuit breaker which handles addcustomer service
+
+Solution
+
+2.
+sender json
+receiver json 
+mapping --->json -customer and address object ---> Pappu Jaiswal
+
+{
+	"adharCardNo":245454,
+	"firstName":"Param",
+	"lastName":"Bala",
+	"email":"param@gmail.com",
+	"mobileNo":9988776655,
+	"dob":"1977-12-07",
+	"addresses":[
+		{
+			"doorNo":"A10",
+			"streetName":"xy",
+			"city":"chennai",
+			"state":"TN",
+			"pincode":45435
+		},
+		{
+			"doorNo":"A11",
+			"streetName":"xy",
+			"city":"bangalore",
+			"state":"KN",
+			"pincode":85435
+		}]
+}
+ 
+
+
+
+
