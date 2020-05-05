@@ -1,0 +1,16 @@
+Context
+
+1. Customer Service---> Eureka--> Zuul api gateway
+
+
+http://localost:8765/api/customer--->customer service
+
+spring boot security--> API Gateway
+http://localost:8765/api/customer--->configuration-->websecurity-->authentcation--> UserDetailsService--> IS commn-> verify the user-->
+return role--->httpsecurity-->authorization-->customer service
+
+Question
+http://localost:8765/api/customer-->api gateway-->pre filter-->
+JWT-->authentcation--> UserDetailsService--> IS commn-> verify the user-->
+return role--->httpsecurity-->authorization-->route filter-->post filter
+
