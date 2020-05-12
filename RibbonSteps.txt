@@ -1,0 +1,26 @@
+Step1
+Add feign or ribbon dependency in pom.xml
+Step 2
+application.properties
+eurekaclient, registeritself
+ribbon config
+Step 3
+Ribbon configuration
+IclientConfig, Iping, Irule
+
+Step 4
+Proxy Service
+LOadBalancer, Discovery Client
+
+fetch available services for the given service id
+give the service Id to Load Balancer
+Chosen service returned by load balance.
+make rest template call using that service
+
+Step 5
+Create controller, create api path, redirect the call to proxy service
+
+
+
+
+
