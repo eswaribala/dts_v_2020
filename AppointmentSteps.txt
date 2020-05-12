@@ -1,0 +1,34 @@
+Appointment CRUD operation
+
+1.Eureka Service
+2.External Configuration
+3.Must be accessible via api gateway
+4.Implement JWT Authentication and authorization should happen during API calls
+5.Appointment should fetch customer details customer-service via api gateway
+
+
+----------------
+1.Registry
+
+2. config server
+
+3.api gateway (http://localhost:8765/auth/signin)
+
+{
+  "username": "admin",
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsInJvbGVzIjpbIlJPTEVfVVNFUiIsIlJPTEVfQURNSU4iXSwiaWF0IjoxNTg5MjgzNzYzLCJleHAiOjE1ODkyODczNjN9.c0YzU2JInfPEQ8CGoAMUpcwWMrEyNOC1C4YwjPXbsvs"
+}
+
+http://localhost:8765/api/appointment/getappointmentbyid/1
+
+http://localhost:8765/api/appointment/getappointmencustomertbyid/1
+
+{"appointmentId":1,"appointmentType":"Loan","appointmentTime":{"hour":10,"minute":30,"second":0,"nano":0},"appointmentDate":{"year":2020,"month":"MAY","dayOfMonth":27,"monthValue":5,"era":"CE","dayOfWeek":"WEDNESDAY","dayOfYear":148,"leapYear":true,"chronology":{"id":"ISO","calendarType":"iso8601"}},"rmId":120,"customerId":162}===>{"headers":{"Vary":["Origin","Access-Control-Request-Method","Access-Control-Request-Headers"],"Date":["Tue, 12 May 2020 11:53:21 GMT"],"Keep-Alive":["timeout=60"],"X-Content-Type-Options":["nosniff"],"X-XSS-Protection":["1; mode=block"],"Cache-Control":["no-cache, no-store, max-age=0, must-revalidate"],"Pragma":["no-cache"],"Expires":["0"],"X-Frame-Options":["DENY"],"Content-Type":["application/json"],"Transfer-Encoding":["chunked"],"Connection":["keep-alive"]},"body":{"customerId":162,"customerName":null,"dob":{"year":1970,"month":"DECEMBER","dayOfMonth":2,"monthValue":12,"era":"CE","dayOfWeek":"WEDNESDAY","dayOfYear":336,"leapYear":false,"chronology":{"id":"ISO","calendarType":"iso8601"}},"email":"parameswaribala@gmail.com","mobileNo":9967856788},"statusCodeValue":200,"statusCode":"OK"}
+
+
+
+
+
+
+
+
